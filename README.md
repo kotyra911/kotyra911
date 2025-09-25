@@ -1,9 +1,10 @@
 ### Привет, я Матвей 👋
-Я backend-разработчик на Python. Работаю с FastAPI и PostgreSQL.  
+Я backend-разработчик на Python. Работаю с FastAPI и PostgreSQL.
+Стремлюсь стать профессионалом в этой области
 
 **Навыки:**
 - Python, SQL, FastAPI, SQLAlchemy
-- Git, Docker, Linux
+- Git, Docker
 - Pytest, REST API
 
 **Проекты:**
