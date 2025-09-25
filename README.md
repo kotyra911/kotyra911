@@ -1,16 +1,13 @@
-## Hi there 👋
+### Привет, я Матвей 👋
+Я backend-разработчик на Python. Работаю с FastAPI и PostgreSQL.  
 
-<!--
-**kotyra911/kotyra911** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Навыки:**
+- Python, SQL, FastAPI, SQLAlchemy
+- Git, Docker, Linux
+- Pytest, REST API
 
-Here are some ideas to get you started:
+**Проекты:**
+- Интернет-магазин на FastAPI
+- TODO-приложение с авторизацией
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 Контакты: [Telegram](https://t.me/matew_1)
