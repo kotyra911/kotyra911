@@ -1,23 +1,24 @@
-# 👋 Привет, я Матвей
-Backend-разработчик на Python, работаю с **FastAPI** и **PostgreSQL**. Стремлюсь стать профессионалом в backend-разработке.
+# 👋 Hi, I’m Matvey  
+Backend Python Developer. I work as a freelancer and develop my own projects.
 
 ---
 
-## 🛠 Навыки
-**Языки и фреймворки:** Python, FastAPI, SQLAlchemy  
-**Базы данных:** PostgreSQL, Redis
-**Инструменты:** Git, Docker, TelegramAPI
-**Тестирование:** Pytest  
+## 🛠 Skills  
+**Languages:** Python
+**Libraries and Frameworks:** FastAPI, SQLAlchemy, Asyncio, Aiogram3x and more...
+**Databases:** PostgreSQL, Redis  
+**Tools:** Git, Docker, Telegram API  
+**Testing:** Pytest  
 **API:** REST  
 
 ---
 
-## 📫 Контакты
+## 📫 Contacts  
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/matew_1)
 
 ---
 
-## ⚡ Интересы
-- Изучение продвинутого Python и бэкенд-разработки  
-- Улучшение навыков работы с базами данных и API  
-- Создание чистого, тестируемого кода
+## ⚡ Interests  
+- Learning advanced Python and backend development  
+- Improving skills in working with databases and APIs  
+- Implementing AI in Work
