@@ -1,29 +1,14 @@
-# 👋 Hi, I’m Matvey  
-Backend Python Developer. I work as a freelancer and develop my own projects.
+👋 Hi, I’m Matvey — **Backend Python Developer**  
+Freelancer, building backend services and personal projects.
 
----
+### 🛠 Tech Stack
+**Python**, FastAPI, SQLAlchemy, Asyncio  
+PostgreSQL, Redis  
+Git, Docker, Telegram API  
+REST, WebSockets, Pytest
 
-## 🛠 Skills  
-**Languages:** Python
-
-**Libraries and Frameworks:** FastAPI, SQLAlchemy, Asyncio, and more...
-
-**Databases:** PostgreSQL, Redis  
-
-**Tools:** Git, Docker, Telegram API  
-
-**Testing:** Pytest  
-
-**Сlient–Server:** REST APi, WEBSOCKETS
-
----
-
-## 📫 Contacts  
+### 📫 Contact
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/matew_1)
 
----
-
-## ⚡ Interests  
-- Learning advanced Python and backend development  
-- Improving skills in working with databases and APIs  
-- Implementing AI in Work
+### ⚡ Interests
+Backend architecture, databases & APIs, AI integration
