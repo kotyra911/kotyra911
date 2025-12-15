@@ -9,9 +9,12 @@ Backend Python Developer. I work as a freelancer and develop my own projects.
 **Libraries and Frameworks:** FastAPI, SQLAlchemy, Asyncio, and more...
 
 **Databases:** PostgreSQL, Redis  
+
 **Tools:** Git, Docker, Telegram API  
+
 **Testing:** Pytest  
-**API:** REST  
+
+**Сlient–Server:** REST APi, WEBSOCKETS
 
 ---
 
