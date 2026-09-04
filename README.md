@@ -1,48 +1,51 @@
-# 👋 Hi, I’m Matvey
+## Matvey Klimanskiy
 
-### Backend Python / Go Developer
+I used to write backends by hand. Now I specify them, run coding agents in
+parallel, and own the part that decides whether their output ships.
 
-I build reliable backend services and develop personal projects focused on performance, scalability, and clean architecture.
+"Can a model write this function" stopped being the interesting question a while
+ago. The one that matters is **how you accept code you did not write** — and that
+is a verification problem, not a prompting one. Most of my work is building that
+contour.
 
----
+### How I work
 
-## 🛠 Tech Stack
+**A fleet, not a chat window.** Every ticket gets its own git worktree and its own
+agent with a scoped `CLAUDE.md`. A dozen or more run at once. Isolation means a bad
+run gets thrown away instead of untangled.
 
-### Languages & Frameworks
+**The author never audits itself.** Security review runs as a separate session that
+is forbidden from having written the code. It produces numbered findings and never
+patches — a model defending its own output is not a reviewer.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat&logo=go&logoColor=white)
+**Rules that execute, not rules that persuade.** Constraints live in a custom guard
+linter and pre-commit hooks, mirrored exactly in CI on a clean clone so they cannot
+be skipped locally. A rule that exists only in prose is a suggestion.
 
-### Databases & Storage
+**CI treated as hostile ground.** Actions pinned by commit SHA rather than tags,
+read-only default token permissions, no credentials persisted into the work tree.
+Build steps run third-party code next to your token, and tag-moving supply-chain
+attacks are not hypothetical.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=flat&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+### Selected work
 
-### Tools & Technologies
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **WipeSquad** | Teammate matching and clan CRM for Rust — designed, specified and shipped agent-first using the contour above | TypeScript · PostgreSQL · Redis |
+| **[shortener-service](https://github.com/klimanskiy1/shortener-service)** | URL shortener with a Docker setup and an isolated test environment | FastAPI · PostgreSQL · Docker · Pytest |
+| **[ReqPy CLI](https://github.com/klimanskiy1/htpy-cli-app)** | Terminal HTTP client — a lighter Postman for people who live in the shell | Python · Click · Requests |
+| **[WardenV2](https://github.com/klimanskiy1/WardenV2)** | Watches Avito listings and pushes new ones to Telegram; Redis-backed dedup with a 2-day TTL | asyncio · Redis · aiogram |
 
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
-![Aiogram](https://img.shields.io/badge/Aiogram-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![REST API](https://img.shields.io/badge/REST-FF6C37?style=flat&logo=postman&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socketdotio&logoColor=white)
-![Telegram API](https://img.shields.io/badge/Telegram_API-26A5E4?style=flat&logo=telegram&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+### Background
 
----
+Backend engineering is the base the oversight rests on — you cannot review what you
+do not understand.
 
-## 📫 Contact
+**Languages** — Python, Go
+**Web** — FastAPI, Django, Gin, aiogram
+**Data** — PostgreSQL, Redis, MySQL, SQLAlchemy
+**Infra** — Docker, Linux, Git, GitHub Actions, RabbitMQ
 
-**Telegram:** [https://t.me/matew_1](https://t.me/matew_1)
+### Elsewhere
 
-**Email:** [klimanskiymatvey@gmail.com](mailto:klimanskiymatvey@gmail.com)
-
-**LinkedIn:** [https://www.linkedin.com/in/klimanskiy-m](https://www.linkedin.com/in/klimanskiy-m)
-
-
+[Telegram](https://t.me/matew_1) · [Email](mailto:klimanskiymatvey@gmail.com) · [LinkedIn](https://www.linkedin.com/in/klimanskiy-m)
